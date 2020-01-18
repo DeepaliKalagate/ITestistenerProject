@@ -14,10 +14,6 @@ import java.util.Date;
 
 public class Utility extends BaseClass
 {
-
-	public static final int pageload=20;
-	public static final int wait =10;
-
 	/**
 	 * for take the screenshot
 	 */

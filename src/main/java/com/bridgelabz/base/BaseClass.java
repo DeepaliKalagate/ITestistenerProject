@@ -44,11 +44,10 @@ public class BaseClass
 			driver = new FirefoxDriver();
 		}
 
-		driver.manage().window().maximize();	
+		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(Utility.pageload,TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(Utility.wait,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(property.getProperty("URL"));
-		webDriverWait = new WebDriverWait(driver,Utility.wait);
 	}
 }
