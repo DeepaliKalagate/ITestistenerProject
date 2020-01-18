@@ -1,10 +1,19 @@
+
+/******************************************************************************
+ *
+ *  Author  Deepali Kalagate
+ *  Purpose: for set system property, Initializing the browser and launch the
+ *
+ *  @since   18-01-2020
+ *
+ ******************************************************************************/
+
 package com.bridgelabz.base;
-import com.bridgelabz.utility.Utility;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -14,7 +23,6 @@ public class BaseClass
 {
 	public static WebDriver driver;
 	public static Properties property;
-	public static WebDriverWait webDriverWait;
 	public static FileInputStream fileInputStream;
 	public BaseClass()
 	{

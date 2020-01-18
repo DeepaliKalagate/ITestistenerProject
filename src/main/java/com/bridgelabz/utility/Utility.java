@@ -1,12 +1,20 @@
+
+/******************************************************************************
+ *
+ *  Author  Deepali Kalagate
+ *  Purpose: Generic code for Facebook Login page.
+ *
+ *  @since   18-01-2020
+ *
+ ******************************************************************************/
+
 package com.bridgelabz.utility;
 
 import com.bridgelabz.base.BaseClass;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.AfterMethod;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;

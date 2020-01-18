@@ -1,3 +1,13 @@
+
+/******************************************************************************
+ *
+ *  Author  Deepali Kalagate
+ *  Purpose: Page Model for Facebook Login Page.
+ *
+ *  @since   18-01-2020
+ *
+ ******************************************************************************/
+
 package com.bridgelabz.model;
 import com.bridgelabz.base.BaseClass;
 import org.openqa.selenium.WebElement;
